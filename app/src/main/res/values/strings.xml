@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">FillMe</string>
+    <string name="move">MO_E</string>
+    <string name="grow">G_OW</string>
+    <string name="neem">NE_M</string>
+    <string name="rose">R_SE</string>
+    <string name="mint">MI_T</string>
+    <string name="banyan">BA_YA_</string>
+
+    <string name="a">A</string>
+    <string name="g">G</string>
+    <string name="r">R</string>
+    <string name="w">W</string>
+    <string name="t">T</string>
+    <string name="e">E</string>
+    <string name="p">P</string>
+    <string name="l">L</string>
+    <string name="k">K</string>
+    <string name="o">O</string>
+    <string name="m">M</string>
+    <string name="s">S</string>
+    <string name="n">N</string>
+    <string name="b">B</string>
+    <string name="y">Y</string>
+    <string name="v">V</string>
+
+
+    <string name="next">Next</string>
+    <string name="play_again">Play Again</string>
+</resources>

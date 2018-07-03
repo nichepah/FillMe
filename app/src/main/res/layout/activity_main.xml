@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:attr/textColorLink"
+    tools:context="com.ammu.pa.fillme.MainActivity">
+
+    <Button
+        android:id="@+id/ButtonR"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:onClick="onClickP"
+        android:text="@string/p"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/ButtonK"
+        app:layout_constraintTop_toTopOf="@+id/ButtonK" />
+
+    <Button
+        android:id="@+id/ButtonO"
+        android:layout_width="66dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:onClick="onClickV"
+        android:text="@string/v"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/ButtonR"
+        app:layout_constraintTop_toTopOf="@+id/ButtonK" />
+
+    <Button
+        android:id="@+id/ButtonMove"
+        android:layout_width="wrap_content"
+        android:layout_height="76dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:onClick="onClickV"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/move" />
+
+    <Button
+        android:id="@+id/ButtonK"
+        android:layout_width="77dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="12dp"
+        android:onClick="onClickK"
+        android:text="@string/k"
+        android:textSize="36sp"
+        app:layout_constraintStart_toEndOf="@+id/ButtonE"
+        app:layout_constraintTop_toTopOf="@+id/ButtonE" />
+
+    <Button
+        android:id="@+id/ButtonE"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:onClick="onClickE"
+        android:text="@string/e"
+        android:textSize="36sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonMove" />
+
+    <Button
+        android:id="@+id/ButtonNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="64dp"
+        android:onClick="onClickNext"
+        android:text="@string/next"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ButtonE" />
+
+</android.support.constraint.ConstraintLayout>
